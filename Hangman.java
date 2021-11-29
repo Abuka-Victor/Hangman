@@ -13,9 +13,6 @@ package HangmanPack.Hangman;
 public class Hangman {
 	static Object age = 12;
 	
-//	Personal Taks:
-//	Create a slack org and call it Java
-//	Create a github repo for the Hangman task
 	
 //	(Hangman Game) Task 1(Row 1):
 //	Use the length of the words to display the dashes
