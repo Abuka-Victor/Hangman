@@ -36,11 +36,14 @@ public class Hangman {
 	
 	
 	public static void main(String[] args) {
-		
+		displayBlanks("Heaven");
 	}
 	
-	void displayBlanks(){
+	static void displayBlanks(String word){
 		//TODO: Row 1
+		for (int i = 0; i < word.length(); i++) {
+			System.out.print("_ ");
+		}
 	}
 	
 	void userInput() {
